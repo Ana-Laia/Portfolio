@@ -40,11 +40,15 @@
     font-family: "Gabarito", sans-serif;
 }
 
-body {
-    background: linear-gradient( to bottom right, #FFE6D4, #FFC69D, #f391a3 );
-    background-size: cover;
-    height: 100vh;
-}
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #FFE6D4, #FFC69D, #F391A3);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ }
  
 .menu {
     max-width: 1280px;
@@ -80,16 +84,29 @@ nav ul {
 
 }
 
-a.idioma {
+.lingua {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    list-style: none;
     margin: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-
+    padding: 0px;
 }
+
+.idioma {
+    text-decoration: none;
+  color: rgb(95, 95, 95);
+  font-weight: 700;
+  font-size: 1.2em;
+  transition: 0.3s;
+    margin: 7px;
+    padding: 0px;
+ }
 
 ul li {
     display: inline-block;
-    padding: 0 40px;
+    padding: 0 0px;
 } 
 
 #sobreat {
