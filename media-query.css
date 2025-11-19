@@ -1,9 +1,14 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 400px) and (max-width: 1000px) {
-    .lingua {
-    
-    }
+@media screen and (min-width: 375px) and (max-width: 1000px) {
+
+ul li {
+    margin: 0px;
+    padding: 0px;
+    width: 90px;
+}
+
+
 }
 
 @media screen and (min-width: 1000px) {
